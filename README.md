@@ -1,2 +1,2 @@
 # Writeup
-Writeup cd CTF's realizados
+Writeup de CTF's realizados
