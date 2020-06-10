@@ -14,3 +14,14 @@ Começando pelo básico, vamos verificar se o código apresenta falhas ao tratar
 
 
 ![First Injection](images/first-injection.png)
+
+Check!! Vemos então a falha da aplicação ao tentar realizar a query e também já sabemos que o alvo utiliza SQLite.
+
+![Flaw SQL Injection](images/flaw-sqli.png)
+
+Agora que já sabemos seu ponto fraco, é hora de explorar.  
+Iremos injetar o seguinte código no campo `username` e no campo `password`: **' or 1=1 --**
+
+
+![First Injection](images/first-injection.png)
+
