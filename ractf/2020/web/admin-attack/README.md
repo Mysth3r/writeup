@@ -39,5 +39,6 @@ E como resultado iremos ter...
 
 ![Flag](images/flag.png)
 
-Trabalho feito, já podemos ver a flag que o usuário `JimmyTehAdmin` nos deu.  
+Trabalho feito, já podemos ver a flag que o usuário `JimmyTehAdmin` nos deu. 
+   
 **FLAG:** `ractf{!!!4dm1n4buse!!!}`
