@@ -13,7 +13,7 @@ Assim que abrimos a URL, podemos ver uma página WEB de autenticação esperando
 Começando pelo básico, vamos verificar se o código apresenta falhas ao tratar aspas simples.
 
 
-![First Injection](images/first-injection.png)
+![Injection Quote](images/injection-quote.png)
 
 Check!! Vemos então a falha da aplicação ao tentar realizar a query e também já sabemos que o alvo utiliza SQLite.
 
