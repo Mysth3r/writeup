@@ -28,8 +28,8 @@ E então vamos ter o seguinte resultado.
 
 ![Welcome xxslayer420](images/welcome-xxslayer420.png)
 
-Bom, pegamos um usuário mas, aparentemente não é um usuário que está nos entregando a Flag. Por padrão, quando utilizamos esse injection, o SQLite irá nos retornar o primeiro resultado válido. Pensando assim, vamos tentar ignorar esse resultado e pegar o segundo resultado válido.    
-Nosso payload agora irá ficar sofrer uma leve alteração, ficando assim:  
+Bom, pegamos um usuário que, aparentemente não é um usuário que está nos entregando a Flag. Por padrão, quando utilizamos esse injection, o SQLite irá nos retornar o primeiro resultado válido. Pensando assim, vamos tentar ignorar esse usuário e pegar o segundo resultado válido.    
+Nosso payload agora irá ficar uma leve alteração, ficando assim:  
   
 **PAYLOAD:** `' or username != 'xxslayer420' -- `
 
