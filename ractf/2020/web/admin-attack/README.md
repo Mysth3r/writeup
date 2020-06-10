@@ -22,7 +22,6 @@ Check!! Vemos então a falha da aplicação ao tentar realizar a query e também
 Agora que já sabemos seu ponto fraco, é hora de explorar.  
 Iremos injetar o seguinte código no campo `username` e no campo `password`: **' or 1=1 --**
 
-
 ![First Injection](images/first-injection.png)
 
 E então vamos ter o seguinte resultado.
@@ -30,13 +29,17 @@ E então vamos ter o seguinte resultado.
 
 ![Welcome xxslayer420](images/welcome-xxslayer420.png)
 
+Bom, pegamos um usuário mas, aparentemente não é um usuário que está nos entregando a Flag. Por padrão, quando utilizamos esse injection, o SQLite irá nos retornar o primeiro resultado válido. Pensando assim, vamos tentar ignorar esse resultado e pegar o segundo resultado válido.  
+Nosso payload agora irá ficar sofrer uma leve alteração, ficando assim:
+**Payload:** `' or username != 'xxslayer420' -- `
 
+![Final Exploit Login](images/final-exploit-login.png)
 
+E como resultado iremos ter...
 
+![Flag](images/flag.png)
 
-
-
-
+Trabalho feito, já podemos ver a flag que o usuário nos deu.
 
 
 
